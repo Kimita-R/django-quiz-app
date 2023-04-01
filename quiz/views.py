@@ -21,7 +21,7 @@ Functions:
 
 # Create your views here.
 def index(request):
-     """This method renders the home page of the app
+    """This method renders the home page of the app
         Each available topic that corresponds to a 
         quiz is displayed. 
 
