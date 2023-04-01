@@ -1,0 +1,221 @@
+:root {
+    --primary-bg-color: #393053;
+    --secondary-bg-color: #18122B;
+    --primary-btn-color: #1E90FF;
+    --secondary-btn-color: #17A151;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #18122B;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color) !important;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color) !important;
+}
+
+.navbar .navlink {
+    color: var(--primary-text-color) !important;
+}
+
+.btn {
+    background-color: var(--primary-btn-color);
+    color: var(--primary-text-color);
+}
+
+
+/* Styling of Quiz Form */
+
+.quiz-form {
+    padding: 25px;
+    width: 720px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* Quiz results container */
+
+.results-container {
+    padding: 25px;
+    width: 640px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+/* Display for topic cards */
+
+.card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+.card {
+    display: flex;
+    /* padding: 1.5em; */
+    margin: 1.5em;
+    border-radius: 16px;
+}
+
+.card .image-container img {
+    width: 100% !important;
+    border-radius: 16px 16px 0 0;
+}
+
+.card:hover .image-container .image1 {
+    display: none !important;
+}
+
+.card .image-container .image2 {
+    display: none !important;
+}
+
+.card:hover .image-container .image2 {
+    display: block !important;
+}
+
+
+/* Settings for parallax effect */
+
+.intro-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, var(--primary-bg-color), transparent);
+    z-index: 10000;
+}
+
+.intro-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+.intro-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.intro-container h2 {
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+}
+
+
+/* Rainforest Page */
+
+.rainforest-about-sec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+}
+
+.rainforest-about-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rainforest-about-content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rainforest-about-content .rainforest-about-image {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.rainforest-about-content .rainforest-about-image img {
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.rainforest-about-content .rainforest-about-text-box {
+    z-index: 222;
+    background: var(--secondary-bg-color);
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 12px;
+    transform: translate(-80px, 50px);
+}
+
+
+/* Space Page */
+
+.about-space-container {
+    position: relative;
+}
+
+.about-space-text-block {
+    position: absolute;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    border-radius: 32px;
+}

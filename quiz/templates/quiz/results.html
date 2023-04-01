@@ -1,0 +1,16 @@
+{% extends "quiz/base.html" %} {% load static %} {% block content %}
+
+<div class="results-container">
+  <h1>Results</h1>
+  <p>Score: {{score}}</p>
+  <p>Percentage: {{perc_score}}%</p>
+  {% if passed == True %}
+    <p>Well done you passed !</p>
+  {% else %}
+    <p>Try again !</p>
+  {% endif %}
+
+  <a class="btn" href="{% url 'quiz:index' %}">Home</a>
+  <a class="btn" href="{% url 'quiz:topic' quiz.id %}">Retry Quiz</a>
+</div>
+{% endblock %}
