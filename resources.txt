@@ -1,0 +1,24 @@
+References and Resources
+
+How to Create a Quiz Web Application with Python Django - https://data-flair.training/blogs/create-quiz-application-python-django/ 
+Parallax Effect - https://www.youtube.com/watch?v=1wfeqDyMUx4&t=173s
+How to Make Website with Scroll Reveal Effects | Reveal Elements On Scroll - HTML, CSS & Javascript - https://www.youtube.com/watch?v=Zwa5z9Ws7y4&t=159s
+Create Quiz Web App with Python Django - https://techvidvan.com/tutorials/quiz-web-app-python-django/
+
+User_auth application based on code used in L2T22
+
+The Solar System
+Solar System - https://kids.britannica.com/kids/article/solar-system/353789 
+Sun (Content + Image) - https://kids.britannica.com/kids/article/Sun/353824
+Mercury (Content + Image) - https://kids.britannica.com/kids/article/Mercury/353454
+Venus (Content + Image) - https://kids.britannica.com/kids/article/Venus/353895
+Earth (Content + Image) - https://kids.britannica.com/kids/article/Earth/353074 
+Mars (Content + Image) - https://kids.britannica.com/kids/article/Mars/353434
+Jupiter (Content + Image) - https://kids.britannica.com/kids/article/Jupiter/353328
+Saturn (Content + Image) - https://kids.britannica.com/kids/article/Saturn/353745
+Uranus (Content + Image) - https://kids.britannica.com/kids/article/Uranus/353890
+Neptune (Content + Image) - https://kids.britannica.com/kids/article/Neptune/353526
+
+
+The Rainforest
+Content - https://ypte.org.uk/lesson-plans/rainforests 
